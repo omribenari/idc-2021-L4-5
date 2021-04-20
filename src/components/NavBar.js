@@ -39,7 +39,7 @@ const NavBar = (props) => {
           <NavItems />
         </Drawer>
         <Typography variant="h6" color="inherit">
-          Photos
+          IDC - 2021 - Example App
         </Typography>
       </Toolbar>
     </AppBar>
