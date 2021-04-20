@@ -3,9 +3,10 @@ import { List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
 import HomeIcon from "@material-ui/icons/Home";
 import CloudIcon from "@material-ui/icons/Cloud";
 
-function ListItemLink(props) {
+// private component to create a link nenu item
+const ListItemLink = (props) => {
   return <ListItem button component="a" {...props} />;
-}
+};
 
 const NavItems = (props) => {
   return (
